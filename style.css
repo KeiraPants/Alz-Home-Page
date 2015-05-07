@@ -18,7 +18,7 @@ body {
 }
 .container {
     text-align: left;
-	width: 1000px;
+	max-width: 70%;
 	padding: 0;
 	margin: 0 auto;
 }
@@ -78,17 +78,17 @@ body {
 }
 .sitenavbar-nav {
 	height: 90px;
-	max-width: 1000px;
+	max-width: 100%;
 	position: relative;
 	color: #fff;
 	background-color: #003c8b;
-	margin-right: -80px;
+	margin-right: 0;
 }
 
 #sitenav-header {
 	background-color: #003c8b;
 	text-align: left;
-	width: 1000px;
+	width: 70%;
 	padding: 0;
 }
 
@@ -119,8 +119,13 @@ body {
 }
 
 .bluelinks a {
+<<<<<<< HEAD
 	padding-right: 30px;
 	padding-left: 30px;
+=======
+	padding-right: 44px;
+	padding-left: 44px;
+>>>>>>> parent of babb9d4... width changes
 	padding-top: 33px;
 	padding-bottom: 35px;
 	line-height: 89px;
@@ -284,7 +289,7 @@ h5 {
 }
 
 #socialh h2{
-	padding-top: -20px;
+	padding-top: 0;
 }
 
 
@@ -327,7 +332,7 @@ h2 {
 	float: right;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 970px) {
     .right-column {
         float:none;
         width:auto;
@@ -345,10 +350,12 @@ h2 {
 
 }
 
+.col-md-4.text-left {
+	padding:; 5px;
+}
 
 
-
-.col-md-4 h2 {
+.col-md-4 h2{
 	margin-top: 0;
 	margin-bottom: -15px;
 	font-weight: bold;
@@ -362,8 +369,8 @@ h2 {
 	background-color: #f9f9f9;
 	height: 165px;
 }
-#grey-box-con p{
-	font-size: 14px;
+.text-box-grey h5 {
+
 }
 
 .bttn {
@@ -373,7 +380,6 @@ h2 {
 .bttn a{
 	text-decoration: none;
 	color: #fff;
-	font-size: 14px;
 
 }
 
@@ -410,7 +416,7 @@ h2 {
 
 }
 .padtop {
-	padding-top: 14px
+	padding-top: 24px
 
 }
 
@@ -422,12 +428,6 @@ h2 {
 
 #footer-wrap {
 	background-color: #202020;
-	height: 300px;
-}
-
-
-#footerlinks a{
-	font-size: 15px;
 }
 
 .footer-nav {
@@ -456,7 +456,7 @@ h2 {
 }
 
 .col-sm-8 { 
-	padding-top: 25px;
+	padding-top: 40px;
 
 }
 
@@ -469,4 +469,6 @@ h2 {
 	border-right: 1px solid #000;
 	
 }
+
+
 
