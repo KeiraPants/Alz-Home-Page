@@ -18,14 +18,14 @@ body {
 }
 .container {
     text-align: left;
-	width: 75%;
+	width: 70%;
 	padding: 0;
 	margin: 0 auto;
 }
 .navbar-nav {
 	height: 39px;
-	min-width: 970px;
-	position: static;
+	max-width: 100%;
+	position: relative;
 	color: #fff;
 }
 #navlinks {
@@ -78,16 +78,17 @@ body {
 }
 .sitenavbar-nav {
 	height: 90px;
-	min-width: 970px;
+	max-width: 100%;
 	position: relative;
 	color: #fff;
 	background-color: #003c8b;
+	margin-right: 0;
 }
 
 #sitenav-header {
 	background-color: #003c8b;
 	text-align: left;
-	width: 75%;
+	width: 70%;
 	padding: 0;
 }
 
@@ -118,8 +119,8 @@ body {
 }
 
 .bluelinks a {
-	padding-right: 40px;
-	padding-left: 40px;
+	padding-right: 44px;
+	padding-left: 44px;
 	padding-top: 33px;
 	padding-bottom: 35px;
 	line-height: 89px;
