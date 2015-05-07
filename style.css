@@ -24,7 +24,7 @@ body {
 }
 .navbar-nav {
 	height: 39px;
-	max-width: 100%;
+	max-width: 970px;
 	position: relative;
 	color: #fff;
 }
@@ -78,7 +78,7 @@ body {
 }
 .sitenavbar-nav {
 	height: 90px;
-	max-width: 100%;
+	max-width: 970px;
 	position: relative;
 	color: #fff;
 	background-color: #003c8b;
@@ -119,13 +119,8 @@ body {
 }
 
 .bluelinks a {
-<<<<<<< HEAD
-	padding-right: 30px;
-	padding-left: 30px;
-=======
-	padding-right: 44px;
-	padding-left: 44px;
->>>>>>> parent of babb9d4... width changes
+	padding-right: 27px;
+	padding-left: 27px;
 	padding-top: 33px;
 	padding-bottom: 35px;
 	line-height: 89px;
