@@ -18,7 +18,7 @@ body {
 }
 .container {
     text-align: left;
-	width: 70%;
+	width: 1000px;
 	padding: 0;
 	margin: 0 auto;
 }
@@ -78,17 +78,17 @@ body {
 }
 .sitenavbar-nav {
 	height: 90px;
-	max-width: 100%;
+	max-width: 1000px;
 	position: relative;
 	color: #fff;
 	background-color: #003c8b;
-	margin-right: 0;
+	margin-right: -80px;
 }
 
 #sitenav-header {
 	background-color: #003c8b;
 	text-align: left;
-	width: 70%;
+	width: 1000px;
 	padding: 0;
 }
 
@@ -119,8 +119,8 @@ body {
 }
 
 .bluelinks a {
-	padding-right: 44px;
-	padding-left: 44px;
+	padding-right: 27px;
+	padding-left: 27px;
 	padding-top: 33px;
 	padding-bottom: 35px;
 	line-height: 89px;
@@ -284,7 +284,7 @@ h5 {
 }
 
 #socialh h2{
-	padding-top: 0;
+	padding-top: -20px;
 }
 
 
@@ -327,7 +327,7 @@ h2 {
 	float: right;
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1000px) {
     .right-column {
         float:none;
         width:auto;
@@ -345,12 +345,10 @@ h2 {
 
 }
 
-.col-md-4.text-left {
-	padding:; 5px;
-}
 
 
-.col-md-4 h2{
+
+.col-md-4 h2 {
 	margin-top: 0;
 	margin-bottom: -15px;
 	font-weight: bold;
@@ -364,8 +362,8 @@ h2 {
 	background-color: #f9f9f9;
 	height: 165px;
 }
-.text-box-grey h5 {
-
+#grey-box-con p{
+	font-size: 14px;
 }
 
 .bttn {
@@ -375,6 +373,7 @@ h2 {
 .bttn a{
 	text-decoration: none;
 	color: #fff;
+	font-size: 14px;
 
 }
 
@@ -411,7 +410,7 @@ h2 {
 
 }
 .padtop {
-	padding-top: 24px
+	padding-top: 14px
 
 }
 
@@ -423,6 +422,12 @@ h2 {
 
 #footer-wrap {
 	background-color: #202020;
+	height: 300px;
+}
+
+
+#footerlinks a{
+	font-size: 15px;
 }
 
 .footer-nav {
@@ -446,7 +451,7 @@ h2 {
 }
 
 .col-sm-8 { 
-	padding-top: 40px;
+	padding-top: 25px;
 
 }
 
@@ -459,6 +464,4 @@ h2 {
 	border-right: 1px solid #000;
 	
 }
-
-
 
