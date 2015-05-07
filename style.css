@@ -325,6 +325,7 @@ h2 {
 .blue-dots {
 	float: right;
 }
+
 @media (max-width: 970px) {
     .right-column {
         float:none;
