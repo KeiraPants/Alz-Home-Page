@@ -7,13 +7,23 @@ body {
     padding: 0;
 }
 
-#socialnav li a {
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-inverse li a {
     padding: 0;
 }
 
-#socialnav {
+.navbar-inverse {
+    border:none;
+}
+
+.navbar-inverse {
     width: 100%;
     background: #202020;
+    margin-bottom: 0;
+    padding-top: 15px;
 }
 
 .container {
@@ -23,8 +33,18 @@ body {
     margin: 0 auto;
 }
 
+
+.container ul {
+    list-style: none;
+}
+
+.col-md-12 {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+
 .navbar-nav {
-    width: 970px;
     position: relative;
     color: #fff;
 }
@@ -34,10 +54,8 @@ body {
     padding-top: 7px;
 }
 
-
-
-.nav li {
-    display: inline-block;
+.navbar-collapse.in {
+    overflow: visible;
 }
 
 #bordermail {
@@ -48,9 +66,7 @@ body {
     height: 26px
 }
 
-#bordermail a:hover {
-    background-color: #202020;
-}
+
 
 #navlinks a {
     color: #fff;
@@ -76,8 +92,12 @@ body {
     height: 26px;
 }
 
+.col-md-3 {
+    padding-left: 0;
+}
+
 #about {
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 #about a:hover {
@@ -90,7 +110,7 @@ body {
 }
 
 #smaller {
-    padding-left: 40px;
+    padding-left: 50px;
     padding-right: 3px;
     padding-bottom: 6px;
 }
@@ -99,45 +119,62 @@ body {
     padding-right: 3px;
 }
 
-#sitenav {
+#larger {
+    padding-right: 50px;
+}
+
+.navbar-form {
+    margin-top: 0;
+    padding: 0;
+}
+
+.add-on .input-group-btn > .btn {
+    border-left-width:0;left:-2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    border-color:#cccccc;
+}
+
+
+.contact-resize {
+    width: 300px;
+}
+
+
+.sitenav {
     width: 100%;
     background: #003c8b;
+    margin:0;
+    min-height: 89px;
 }
 
 .sitenavbar-nav {
-    display: inline;
-    height: 90px;
-    width: 970px;
     position: relative;
     color: #fff;
     background-color: #003c8b;
     margin-right: 0;
 }
 
-#sitenav-header {
-    background-color: #003c8b;
-    text-align: left;
-    width: 70%;
-    padding: 0;
-}
 
-#sitenavlinks {
-    margin-top: 0;
-    width: 970px;
-
-}
-
-#logo a {
+.navbar-brand a {
     padding-top: 28px;
     padding-bottom: 28px;
-    padding-left: 0;
 }
 
 #logo a:hover {
     background-color: #003c8b;
 }
 
-#sitenavlinks a {
+.sitenavlinks {
+    width: 75%;
+}
+
+.sitenavlinks a {
     color: #fff;
     font-size: 16px;
     text-decoration: none;
@@ -149,12 +186,14 @@ body {
     padding-left: 27px;
     padding-top: 33px;
     padding-bottom: 35px;
-    line-height: 89px;
+    line-height: 90px;
 }
 
 #logo a:active {
     background-color: #003c8b;
 }
+
+
 
 .nav>li>a:focus, .nav>li>a:hover {
     background-color: #012049;
@@ -171,42 +210,222 @@ body {
 }
 
 .dropdown-menu {
+    position: absolute;
     background-color: #003c8b;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #012049;
+    box-shadow: none;
 }
 
-.dropdown-toggle a{
-    min-width: 140px;
+.dropdown-menu li {
+    width: 100%;
 }
+
+.dropdown-menu>li>a {
+    background-color: ;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    line-height: 1.42857143;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #012049;
+    color: #ffffff;
+}
+
+
 
 #gethelp {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 #gethelp a {
-    margin-left: -3px;
-    margin-right: -3px;
-    padding-left: 20px;
-    padding-right: 20px;
+  margin-left: -3px;
+  margin-right: -3px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
 #learn a{
-    padding-left: 40px;
-    padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #healthcare a {
-    padding-right: 25px;
-    padding-left: 25px;
-    margin-left: -1px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-left: -1px;
 }
 
 
 #donate a {
-    background-color: #e06714;
-    padding-left: 28px;
-    padding-right: 28px;
-    margin-left: -3px;
+  background-color: #e06714;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: -3px;
+}
+
+.sitenav .navbar-toggle {
+  border-color: #1f3174;
+}
+
+.sitenav .navbar-toggle .icon-bar{
+  background-color: #ffffff;
+}
+
+.link-name {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+
+  .container {
+      width: 70%;
+  }
+
+  .navbar-nav {
+      margin: 0;
+  }
+
+  .navbar-nav li a {
+      padding: 0;
+      font-weight: bold;
+      font-size: 15px;
+  }
+  .navbar-nav li img {
+     display: none;
+  }
+
+
+  #bordermail {
+      border: none;
+      padding-left: 0;
+  }
+
+  .navbar-collapse {
+      padding-left: 0;
+  }
+
+  #linkedin {
+      border-right: none;
+  }
+
+  #about {
+      padding: 0;
+  }
+
+  #divider {
+      display: none;
+  }
+
+  .link-name {
+      display: block;
+  }
+
+  .link-image {
+      display: none;
+  }
+
+  #twitter {
+      padding: 0;
+  }
+
+  #smaller {
+      padding:0;
+  }
+
+  .navHeaderCollapse-2 {
+      margin-top: 15px;
+  }
+
+  #gethelp a {
+      margin-top: 0;
+  }
+
+  #learnf {
+      border-right: none;
+  }
+
+  .navbar-form {
+      padding: 0;
+  }
+
+  .navbar-static-top {
+      padding-top: 0;
+  }
+
+  .search {
+      padding-left: 0;
+  }
+
+  ol, ul {
+      margin-top: 10px;
+  }
+
+  .sitenavlinks {
+      width: 100%;
+      margin-top: 0;
+  }
+
+  .bluelinks a {
+      line-height: 0;
+  }
+
+
+  #learn a {
+      padding-left: 15px;
+  }
+
+  .dropdown-toggle {
+      padding-top: 0;
+
+  }
+
+  #healthcare a {
+      padding-left: 15px;
+  }
+
+  #donate a {
+      padding-left: 15px;
+      margin-left: 0:
+  }
+
+}
+
+@media (min-width: 768px) {
+  .col-sm-4.col-md-4 {
+      padding:0;
+  }
+
+  .col-sm-3.col-md-3.middle {
+      margin-right: 8px;
+  }
+
+  .sitenavlinks {
+      float: left;
+      margin: 0;
+  }
+  .sitenavlinks li {
+      float: left;
+  }
+  .navbar-right .dropdown-menu {
+      right: auto;
+  }
 }
 
 /* Carousel base class */
@@ -252,12 +471,12 @@ body {
 
 
 
-
 #bluebar a {
     color: #ffffff;
     text-decoration: none;
-    float: left;
 }
+
+
 
 .text-left {
     padding-top: 25px;

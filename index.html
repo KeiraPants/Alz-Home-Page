@@ -9,56 +9,104 @@
 </head>
 <body>
 <header>
-    <div id="socialnav">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
 
-            <div id="navlinks">
+            <div class="navbar-header">
+
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse navHeaderCollapse-1">
 
                 <ul class="nav navbar-nav">
 
+                    <li class="block" id="bordermail"><a href="#">
+                        <img src="images/join_mailing_list.png">Join our mailing list</a></li>
 
-                    <li class="block" id="bordermail"><a href="#"><img src="images/join_mailing_list.png">Join our
-                        mailing list</a></li>
+                    <li class="block" id="twitter"><a href="#"><span
+                            class="link-name">Twitter</span>
+                        <img class="link-image" src="images/twitter.png"></a></li>
 
-                    <li class="block" id="twitter"><a href="#"><img src="images/twitter.png"></a></li>
+                    <li class="block" id="facebook"><a href="#"><span
+                            class="link-name">Facebook</span>
+                        <img class="link-image" src="images/facebook.png"></a></li>
 
-                    <li class="block" id="facebook"><a href="#"><img src="images/facebook.png"></a></li>
+                    <li class="block" id="youtube"><a href="#"><span
+                            class="link-name">YouTube</span>
+                        <img class="link-image" src="images/youtube.png"></a></li>
 
-                    <li class="block" id="youtube"><a href="#"><img src="images/youtube.png"></a></li>
+                    <li class="block" id="linkedin"><a href="#"><span
+                            class="link-name">LinkedIn</span>
+                        <img class="link-image" src="images/linkedin.png"></a></li>
 
-                    <li class="block" id="linkedin"><a href="#"><img src="images/linkedin.png"></a></li>
 
                     <li class="block" id="about"><a href="#">About Us </a></li>
 
-                    <li class="block">|</li>
+                    <li class="block " id="divider">|</li>
 
                     <li class="block" id="contact"><a href="#">Contact Us</a></li>
 
-                    <li class="block" id="smaller"><a href="#"><img src="images/-.png"></a></li>
+                    <li class="block" id="smaller"><a href="#"><span
+                            class="link-name">Shrink Text Size</span>
+                        <img class="link-image" src="images/-.png"></a></li>
 
-                    <li class="block" id="aa"><a href="#"><img src="images/aA.png"></a></li>
+                    <li class="block" id="aa"><a href="#"><span
+                            class="link-name">Uppercase/Lowercase</span>
+                        <img class="link-image" src="images/aA.png"></a></li>
 
-                    <li class="block"><a href="#"><img src="images/+.png"></a></li>
+                    <li class="block" id="larger"><a href="#"><span
+                            class="link-name">Increase Text Size</span>
+                        <img class="link-image" src="images/+.png"></a></li>
 
 
+                    <li>
+                        <form class="navbar-form" role="search">
+                            <div class="input-group add-on">
+                                <input type="text" class="form-control"
+                                       placeholder="What are you looking for?" name="srch-term"
+                                       id="srch-term">
+
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><i
+                                            class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
                 </ul>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- /navbar-inverse -->
+
+    <div class="navbar navbar-static sitenav" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="images/alzheimer_society_toronto.png"></a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=" .navHeaderCollapse-2">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
             </div>
 
-        </div>
-    </div>
+            <div class="collapse navbar-collapse navHeaderCollapse-2">
 
-    <div id="sitenav">
-        <div id="sitenav-header" class="container">
+                <ul class="navbar-right nav sitenavbar-nav sitenavlinks ">
 
-            <div id="sitenavlinks">
+                    <li class="bluelinks" class="block" id="gethelp">
 
-                <ul class="nav sitenavbar-nav">
-
-                    <li id="logo" class="block"><a href="#"><img src="images/alzheimer_society_toronto.png"></a></li>
-
-
-                    <li id="gethelp" class="bluelinks" class="block">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Help <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
@@ -71,12 +119,12 @@
                         </ul>
                     </li>
 
-
                     <li id="learn" class="bluelinks" class="block"><a href="#">Learn</a></li>
 
                     <li id="getinvolved" class="bluelinks" class="block"><a href="#">Get Involed</a></li>
 
-                    <li id="healthcare" class="bluelinks" class="block"><a href="#">Health-Care Professionals</a></li>
+                    <li id="healthcare" class="bluelinks" class="block"><a href="#">Health-Care
+                        Professionals</a></li>
 
                     <li id="donate" class="bluelinks" class="block"><a href="#">Donate</a></li>
                 </ul>
@@ -588,6 +636,6 @@
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 </html>
