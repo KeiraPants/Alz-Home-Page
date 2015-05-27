@@ -356,6 +356,7 @@ body {
   #gethelp a {
       margin-top: 0;
   }
+  
 
   #learnf {
       border-right: none;
@@ -389,6 +390,15 @@ body {
 
   #learn a {
       padding-left: 15px;
+  }
+
+  .dropdown-menu {
+      width: 100%;
+      position: relative;
+      border: none;
+      clear: both;
+      margin-bottom: 10px;
+      padding-left: 20px;
   }
 
   .dropdown-toggle {
