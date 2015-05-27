@@ -232,7 +232,6 @@ body {
 }
 
 .dropdown-menu>li>a {
-    background-color: ;
     display: block;
     padding: 3px 20px;
     clear: both;
@@ -400,6 +399,9 @@ body {
       margin-bottom: 10px;
       padding-left: 20px;
   }
+  .caret {
+      display:none;
+  }
 
   .dropdown-toggle {
       padding-top: 0;
@@ -412,7 +414,7 @@ body {
 
   #donate a {
       padding-left: 15px;
-      margin-left: 0:
+      margin-left: 0;
   }
 
 }
